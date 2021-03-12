@@ -8,12 +8,12 @@
 <parameter name="Url" value ="https://opensource-demo.orangehrmlive.com/"/>
   <test thread-count="5" name="Test">
     <classes>
-       <class name="com.qa.testscripts.OrangeHRMALLTextBoxAllHyperLinkAllImages"/>
-      <class name="com.qa.testscripts.getPageTitleForDifferentMenus"/>
-       <class name="com.qa.testscripts.readDashboardHeading"/>
-         <class name="com.qa.testscripts.getPIMEmployee"/>  
-         <class name="com.qa.testscripts.getElementByCSSSelector"/> 
-        <class name="com.qa.testscripts.getElementByXpath"/> 
+       <class name="com.qa.testscripts.OrangeHRMALLTextBoxAllHyperLinkAllImagesTC2andTC3andTC4andTC5andTC7"/>
+      <class name="com.qa.testscripts.getPageTitleForDifferentMenusTC8"/>
+       <class name="com.qa.testscripts.readDashboardHeadingTC10andTC11andTC12"/>
+         <class name="com.qa.testscripts.getPIMEmployeeTC13"/>  
+         <class name="com.qa.testscripts.getElementByCSSSelectorTC14"/> 
+        <class name="com.qa.testscripts.getElementByXpathTC15"/> 
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

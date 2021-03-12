@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 import com.qa.pages.OrangePages;
 
-public class getPageTitleForDifferentMenus extends TestBase{
+public class getPageTitleForDifferentMenusTC8 extends TestBaseTC1andTC6andTC9{
 	
 	OrangePages OrangeOR;	
 

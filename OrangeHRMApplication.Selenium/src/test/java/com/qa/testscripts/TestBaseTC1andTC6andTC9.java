@@ -22,7 +22,7 @@ import com.qa.pages.OrangePages;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 
-public class TestBase {
+public class TestBaseTC1andTC6andTC9 {
 	
 	public static WebDriver driver;
 	public static FileInputStream fileLoc;
@@ -34,7 +34,7 @@ public class TestBase {
 	public void setUp(String Browser, String Url) {
 		
 			try {
-			fileLoc = new FileInputStream("C:\\Users\\mandulas\\eclipse-workspace\\OrangeHRMApplication.Selenium\\Configuration\\config.properties");
+			fileLoc = new FileInputStream("C:\\SoujanyaJammu\\selenium_assigment.git\\OrangeHRMApplication.Selenium\\Configuration\\config.properties");
 			prop = new Properties();
 			prop.load(fileLoc);
 		}catch(Exception e) {

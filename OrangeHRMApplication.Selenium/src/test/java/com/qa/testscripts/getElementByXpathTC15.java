@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 import com.qa.pages.OrangePages;
 
-public class getElementByXpath extends TestBase{
+public class getElementByXpathTC15 extends TestBaseTC1andTC6andTC9{
 	OrangePages OrangeOR;
 	
 	@BeforeMethod

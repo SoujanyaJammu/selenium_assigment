@@ -1,6 +1,7 @@
 package com.qa.testscripts;
 
 import org.apache.commons.collections4.bag.SynchronizedSortedBag;
+
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
@@ -8,7 +9,7 @@ import org.testng.annotations.Test;
 
 import com.qa.pages.OrangePages;
 
-public class getElementByCSSSelector extends TestBase{
+public class getElementByCSSSelectorTC14 extends TestBaseTC1andTC6andTC9{
 	OrangePages OrangeOR;
 	
 	@BeforeMethod

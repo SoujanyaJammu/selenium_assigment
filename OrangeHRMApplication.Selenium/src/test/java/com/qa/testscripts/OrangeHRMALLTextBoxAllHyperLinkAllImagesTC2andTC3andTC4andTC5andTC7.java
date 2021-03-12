@@ -1,6 +1,7 @@
 package com.qa.testscripts;
 
 import java.io.IOException;
+
 import java.util.List;
 
 import org.openqa.selenium.By;
@@ -12,7 +13,7 @@ import org.testng.annotations.Test;
 
 import com.qa.pages.OrangePages;
 
-public class OrangeHRMALLTextBoxAllHyperLinkAllImages extends TestBase{
+public class OrangeHRMALLTextBoxAllHyperLinkAllImagesTC2andTC3andTC4andTC5andTC7 extends TestBaseTC1andTC6andTC9{
 
 	OrangePages OrangeOR;	
 

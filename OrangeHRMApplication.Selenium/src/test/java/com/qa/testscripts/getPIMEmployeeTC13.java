@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 
 import com.qa.pages.OrangePages;
 
-public class getPIMEmployee extends TestBase{
+public class getPIMEmployeeTC13 extends TestBaseTC1andTC6andTC9{
 	
 	OrangePages OrangeOR;	
 

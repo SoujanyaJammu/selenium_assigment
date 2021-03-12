@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 import com.qa.pages.OrangePages;
 
 
-public class readDashboardHeading extends TestBase{
+public class readDashboardHeadingTC10andTC11andTC12 extends TestBaseTC1andTC6andTC9{
 	
 	OrangePages OrangeOR;	
 

@@ -8,22 +8,14 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.qa.testscripts.OrangeHRMALLTextBoxAllHyperLinkAllImages">
-        <methods>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="loadPages"/>
-          <include name="ValidatingSubMenuOnAdminMenu"/>
-        </methods>
-      </class> <!-- com.qa.testscripts.OrangeHRMALLTextBoxAllHyperLinkAllImages -->
-      <class name="com.qa.testscripts.readDashboardHeading">
+      <class name="com.qa.testscripts.readDashboardHeadingTC10andTC11andTC12">
         <methods>
           <include name="retryAnalyzerDashboardMenu"/>
           <include name="setUp"/>
           <include name="tearDown"/>
           <include name="loadPages"/>
         </methods>
-      </class> <!-- com.qa.testscripts.readDashboardHeading -->
+      </class> <!-- com.qa.testscripts.readDashboardHeadingTC10andTC11andTC12 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
